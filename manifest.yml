@@ -1,5 +1,5 @@
 applications:
-- name: emplo
+- name: rapp
   memory: 64M
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-  path: dist/
+  path: public/
